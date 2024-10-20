@@ -1,0 +1,82 @@
+body{
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 30px; /* Add space above the heading */
+    font-size: 36px; /* Optional: Change font size */
+    color: #1f3f5f; /* Optional: Change text color */
+}
+
+#task-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#text-task{
+    margin: 0;  
+    padding: 13px;
+    width: 40%;
+    border: none;
+}
+
+#add-task{
+    border: none; 
+    width: 5%;
+    padding: 13px;
+    cursor: pointer; 
+}
+
+#add-task:hover {
+    background-color: darkgrey;
+}
+
+#task-item-container{
+    margin-left: 26%;
+    padding: 10px;
+    width: 46.8%;
+
+}
+
+#task-list{
+    padding: 10px;
+    margin: 0%;
+    display: flex; /* Use flexbox for the task item */
+    justify-content: space-between; /* Align text to the left and buttons to the right */
+    align-items: center; 
+}
+
+.odd{
+    background-color: #e8eaf6;;
+}
+
+.even{
+    background-color: #ffe6e6;
+}
+
+.check-btn, .remove-btn {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background: none;
+    margin-left: 10px;
+}
+
+.check-btn{
+    color: green;
+}
+
+.remove-btn{
+    color: red;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+}
+
+
+
